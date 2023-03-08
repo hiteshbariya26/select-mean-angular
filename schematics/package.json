@@ -1,0 +1,38 @@
+{
+  "name": "select-mean",
+  "version": "15.1.0",
+  "description": "Angular Material Admin Dashboard",
+  "author": "nzbin<nzb329@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/select-mean/select-mean.git"
+  },
+  "keywords": [
+    "angular",
+    "angular-material",
+    "admin-dashboard",
+    "select-mean",
+    "ng-admin",
+    "ngx-admin",
+    "responsive",
+    "schematics",
+    "material-extensions",
+    "material-design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/select-mean/select-mean/issues"
+  },
+  "homepage": "https://select-mean.github.io/select-mean/",
+  "scripts": {
+    "build": "../node_modules/.bin/tsc -p tsconfig.json"
+  },
+  "schematics": "./collection.json",
+  "ng-update": {
+    "migrations": "./migration.json",
+    "packageGroup": [
+      "select-mean"
+    ]
+  },
+  "sideEffects": false
+}

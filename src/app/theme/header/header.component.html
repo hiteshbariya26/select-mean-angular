@@ -1,0 +1,12 @@
+<mat-toolbar class="matero-toolbar">
+  <button mat-icon-button *ngIf="showToggle" (click)="toggleSidenav.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <app-branding *ngIf="showBranding"></app-branding>
+
+  <span class="flex-fill"></span>
+
+  <app-user></app-user>
+
+</mat-toolbar>
